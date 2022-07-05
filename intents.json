@@ -1,0 +1,80 @@
+
+
+{
+"intents": [
+  {
+    "tag": "greeting",
+    "patterns": [
+        "hi",
+        "hey",
+        "how are you",
+        "is anyone there?",
+        "hello",
+        "good day"
+         
+    ],
+  "responses": [
+    "hey >_<",
+    "hello, thanks for stoping bye!",
+    "hi there, what can i do for you?",
+    "hi there, how can i help?",
+    "good day to you aswell!"
+
+
+  ]
+  },
+  
+       {
+        "tag": "goodbye",
+        "patterns": ["bye","see you later","goodbye"],
+        "responses": [
+          "see you later,  thanks for visiting",
+          "have a nice day",
+          "bye! come back angain soon",
+          "stay safe put there"
+          ]
+       },
+       {
+        "tag": "thanks",
+        "patterns": ["thanks","thank you","that's helpful","thank's a lot >_<"],
+        "responses": ["Happy to help","Any time!","My pleasure"]
+       },
+       {
+         "tag": "items",
+         "patterns": [
+            "witch items do you have?",
+            "what kinds of items are there?",
+            "what do you sell"
+         ],
+         "responses": [
+            "we sell coffee and tea",
+            "we have coffe and tea"
+         ]
+          },
+          {
+            "tag": "paymeants",
+            "patterns":  [
+                "do you take credit cards?",
+                "do you accept master card",
+                "can i pay with paypal",
+                "are you cash only"
+            ],
+            "responses": [
+                "Yes infact we do take credit cards!",
+                "We accept all forms of payment",
+                "yes we do take paypal",
+                "NO we are not cash only"
+            ]
+            } 
+             
+
+
+    ]
+   
+
+
+
+
+
+
+}
