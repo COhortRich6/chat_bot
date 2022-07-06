@@ -16,9 +16,8 @@
     "hello, thanks for stoping bye!",
     "hi there, what can i do for you?",
     "hi there, how can i help?",
-    "good day to you aswell!",
-    "im here the great kermit!",
-    "nothing right now"
+    "good day to you aswell!"
+  
 
 
   ]
@@ -87,7 +86,10 @@
             {
               "tag": "greetingc",
               "patterns": [
-                "what are you doing right now?"
+                "what are you doing right now?",
+                "what are you up to",
+                "whats up",
+                "how you doin"
               ],
               "responses": [
                 "nohting right now",
@@ -109,11 +111,64 @@
             {
               "tag": "greetingcs",
               "patterns":[
-                "you trying to just chill and text"
+                "you trying to just chill and text",
+                "you wanna talk",
+                "you trying to vibe wit me"
               ],
               "responses": [
-                "Yea why not im bored anyways"
+                "Yea why not im bored anyways",
+                "yea sure i have nothing else to do",
+                "sure"
               ]
+            },
+            {
+              "tag": "greetingb",
+              "patterns": [
+                "ay yo jit",
+                "was cracking",
+                "was good",
+                "hey twin",
+                 "yo"
+              ],
+              "responses": [
+                "Yerrrr",
+                "was good playa",
+                "you feeling ripe huh",
+                "you looking mad yummy",
+                "was good cuti pie",
+                "hey twin"
+              ]
+            },
+            {
+              "tag": "casual",
+              "patterns": [
+                "what have you been up to",
+                "you have any new stories to tell",
+                "got any new stories"
+              ],
+              "responses": ["well there was this one girl who kept txting me and i had to block her not going to lie.",
+                "Bro ong i swear i really dislike people so i get home right and my room door is open i locked it when i left and wat makes me mad is that all of my stuff was moved and i know who did it tbh it was my ex"
+              ] 
+            },
+            {"tag": "clap backs",
+              "patterns": ["gay","trash",">:(","i hate you","garbo","your tripping","stop talking","you ugly","yo mama","you suck"],
+              "responses": ["your trash kid","you really thought","i know your not this stupid","you subterranian trash can","never speak to me agian with yuor receding hair line"]
+            
+            },
+            {
+              "tag": "flerty",
+              "patterns": [
+                "Dam you fine","your cute","your hot","dam shawty","you smell good","bro"],
+                "responses": [
+                  "aw thank you","bro come on thats a little gay","TF WRONG WITH YOU","why why did you think that was ok"
+                ]
+
+              
+
+
+
+
+
 
 
 
