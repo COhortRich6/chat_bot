@@ -6,9 +6,7 @@
     "tag": "greeting",
     "patterns": [
         "hi",
-        "hey",
         "how are you",
-        "is anyone there?",
         "hello",
         "good day"
          
@@ -18,7 +16,9 @@
     "hello, thanks for stoping bye!",
     "hi there, what can i do for you?",
     "hi there, how can i help?",
-    "good day to you aswell!"
+    "good day to you aswell!",
+    "im here the great kermit!",
+    "nothing right now"
 
 
   ]
@@ -31,7 +31,7 @@
           "see you later,  thanks for visiting",
           "have a nice day",
           "bye! come back angain soon",
-          "stay safe put there"
+          "stay safe out there"
           ]
        },
        {
@@ -56,17 +56,50 @@
             "patterns":  [
                 "do you take credit cards?",
                 "do you accept master card",
-                "can i pay with paypal",
-                "are you cash only"
+                "can i pay with paypal"
             ],
             "responses": [
-                "Yes infact we do take credit cards!",
+                "Yes infact take credit cards to!",
                 "We accept all forms of payment",
                 "yes we do take paypal",
                 "NO we are not cash only"
             ]
-            } 
-             
+            }, 
+            {
+              "tag": "greetings",
+              "patterns": [
+                "hey"
+                ],
+                "responses": [
+                  "hey >_<"
+                   ]
+                  
+            },
+            {
+              "tag": "greetinges",
+              "patterns": [
+                "is anyone there"
+              ],
+              "responses": [
+                "im here the great Kermit!"
+              ]
+            },
+            {
+              "tag": "greetingc",
+              "patterns": [
+                "what are you doing right now?"
+              ],
+              "responses": [
+                "nohting right now",
+                "chilling really",
+                "nothing what about you"
+               
+              ]
+            }
+            
+          
+            
+            
 
 
     ]

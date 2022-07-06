@@ -25,7 +25,7 @@ model = NueralNet(input_size, hidden_size, output_size). to(device)
 model.load_state_dict(model_state)
 model.eval()
  
-bot_name = "Jarvis"
+bot_name = "Kermit"
 print("let's chat! type 'quit' to exit, by the way.")
 while True:
    sentance = input('You: ')
@@ -49,5 +49,5 @@ while True:
                print(f"{bot_name}: {random.choice(intent['responses'])}")
   
    else:
-       print(f"{bot_name}: I do not understand that.")
+       print(f"{bot_name}: I don't get it.")
  
