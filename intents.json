@@ -30,14 +30,14 @@
         "responses": [
           "see you later,  thanks for visiting",
           "have a nice day",
-          "bye! come back angain soon",
+          "bye! come back again soon",
           "stay safe out there"
           ]
        },
        {
         "tag": "thanks",
-        "patterns": ["thanks","thank you","that's helpful","thank's a lot >_<"],
-        "responses": ["Happy to help","Any time!","My pleasure"]
+        "patterns": ["thanks","thank you","that's helpful","thank's a lot"],
+        "responses": ["Happy to help","Any time!","My pleasure >_<"]
        },
        {
          "tag": "items",
@@ -95,14 +95,40 @@
                 "nothing what about you"
                
               ]
+            },
+            {
+              "tag": "goodbyes",
+              "patterns": [
+                "im not doing much right now but i have to go bye"
+              ],
+              "responses": [
+                "Well alright then bye >_<",
+                "okay slide through when you get the chance"
+              ]
+            },
+            {
+              "tag": "greetingcs",
+              "patterns":[
+                "you trying to just chill and text"
+              ],
+              "responses": [
+                "Yea why not im bored anyways"
+              ]
+
+
+
+
+
             }
-            
           
             
             
 
 
-    ]
+    
+         
+         
+   ]
    
 
 
